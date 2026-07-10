@@ -196,3 +196,52 @@ color:white;
 font-size:18px;
 
 }
+/* ===== Continents Section ===== */
+
+.continents{
+    max-width:1200px;
+    margin:80px auto;
+    padding:20px;
+    text-align:center;
+}
+
+.continents h2{
+    font-size:42px;
+    margin-bottom:50px;
+    color:#14324b;
+}
+
+.continent-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:22px;
+    padding:35px 25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    transition:.35s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 22px 45px rgba(0,0,0,.18);
+}
+
+.emoji{
+    font-size:60px;
+    margin-bottom:18px;
+}
+
+.card h3{
+    font-size:28px;
+    margin-bottom:15px;
+    color:#14324b;
+}
+
+.card p{
+    color:#666;
+    line-height:1.7;
+}
